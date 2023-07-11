@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 10px 200px;
+    min-width: 468px;
 }
 
 .header {
@@ -65,7 +66,12 @@ button {
 }
 
 .image1 {
+    display: flex;
     max-height: 300px;
     max-width: 300px;
     flex-grow: 0;
+}
+
+.txt_with_button {
+    max-width: 470px;
 }
