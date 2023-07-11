@@ -20,6 +20,8 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    margin: 0px;
+    min-height: 60px;
 }
 
 .header_links {
@@ -62,7 +64,7 @@ button {
     align-items: flex-end;
     justify-content: space-between;
     gap: 50px;
-    padding: 50px 0px;
+    padding: 50px 0px 70px;
 }
 
 .image1 {
