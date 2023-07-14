@@ -124,9 +124,17 @@ button {
 .section_3 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
     padding: 70px 200px;
     min-width: 468px;
+}
+
+.full_quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 815px;
 }
 
 .quote {
@@ -143,4 +151,38 @@ button {
     font-size: 20px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.section_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 200px;
+    min-width: 468px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 35px 60px;
+    min-width: 750px;
+    gap: 100px;
+    color: #E5E7EB;
+}
+
+.footer button {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 2px solid #E5E7EB;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bold;
 }
