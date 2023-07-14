@@ -120,3 +120,27 @@ button {
     height: 200px;
     width: 200px;
 }
+
+.section_3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+    min-width: 468px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.speaker {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
