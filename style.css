@@ -161,7 +161,7 @@ button {
     min-width: 468px;
 }
 
-.footer {
+.s4_all {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,7 +173,7 @@ button {
     color: #E5E7EB;
 }
 
-.footer button {
+.s4_all button {
     display: flex;
     flex: none;
     justify-content: center;
@@ -185,4 +185,14 @@ button {
 .call {
     font-size: 20px;
     font-weight: bold;
+}
+
+.section_5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px 200px;
+    min-width: 468px;
+    color: #E5E7EB;
 }
